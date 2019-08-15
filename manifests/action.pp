@@ -22,6 +22,10 @@
 #            if anymore, even if an exception is encountered. Curator will log but ignore the exception that was raised.
 #   Default: 'False'
 #
+# [*allow_ilm_indices*]
+#   Boolean. If allow_ilm_indices is set to True, Curator will ingonre all ILM taged Indices and querry them regardless of ILM Polices.            
+#   Default: 'False'
+#
 # [*count*]
 #   Number.  The value for this setting is the number of replicas to assign to matching indices.
 #   Default: undef
