@@ -111,6 +111,7 @@ define curator::action (
   # $extra_settings = undef, #We don't support $extra_settings yet
   $ignore_empty_list      = 'False',
   $ignore_unavailable     = undef,
+  $allow_ilm_indices      = 'False'
   $include_aliases        = undef,
   $include_global_state   = undef,
   $indices                = undef,
